@@ -10,7 +10,7 @@ class Repo {
         email: String,
         pinCode: String,
         address: String,
-    ) = ApiProvider.providerApiServices()
+    ) = ApiProvider.providerApiServices().createUser(name,password,phoneNumber,email,pinCode,address)
 
 
 }
