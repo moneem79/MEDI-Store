@@ -1,4 +1,4 @@
 package com.example.medi_store.utils
 
-class const {
-}
+const val BASE_URl = "https://moneem7.pythonanywhere.com/"
+
