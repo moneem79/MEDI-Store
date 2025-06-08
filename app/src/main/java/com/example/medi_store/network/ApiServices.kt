@@ -29,7 +29,7 @@ interface ApiServices {
     @FormUrlEncoded
 
     @POST("login")
-    suspend fun login(
+    suspend fun loginUser(
         @Field("email") email:String,
         @Field("password") password:String
     ) :Response<loginresponse>
